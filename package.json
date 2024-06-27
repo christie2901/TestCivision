@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:css": "tailwindcss build ./src/styles/tailwind.css -o ./src/styles/main.css"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.1",
@@ -32,4 +33,5 @@
     "tailwindcss": "^3.4.4",
     "typescript": "^5"
   }
+  
 }

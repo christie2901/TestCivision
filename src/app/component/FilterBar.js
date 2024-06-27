@@ -45,7 +45,7 @@ import {
               <div className="flex space-x-4">
                 {/* Dropdown pour la saison */}
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <DropdownMenuTrigger className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     {selectedSaison || 'Choisir une saison'}
                   </DropdownMenuTrigger>
                   <DropdownMenuContent className="dropdown-menu">
@@ -53,7 +53,7 @@ import {
                       <DropdownMenuItem
                         key={saison}
                         onClick={() => handleSaisonChange(saison)}
-                        className="dropdown-item px-4 py-2 block text-sm text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="dropdown-item px-4 py-2 block text-sm text-gray-600 hover:bg-gray-700 hover:text-white"
                       >
                         {saison}
                       </DropdownMenuItem>
@@ -63,7 +63,7 @@ import {
   
                 {/* Dropdown pour le niveau */}
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <DropdownMenuTrigger className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     {selectedNiveau || 'Choisir un niveau'}
                   </DropdownMenuTrigger>
                   <DropdownMenuContent className="dropdown-menu">
@@ -71,7 +71,7 @@ import {
                       <DropdownMenuItem
                         key={niveau}
                         onClick={() => handleNiveauChange(niveau)}
-                        className="dropdown-item px-4 py-2 block text-sm text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="dropdown-item px-4 py-2 block text-sm text-gray-00 hover:bg-gray-700 hover:text-white"
                       >
                         {niveau}
                       </DropdownMenuItem>
@@ -81,7 +81,7 @@ import {
   
                 {/* Dropdown pour le passse */}
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <DropdownMenuTrigger className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     {selectedPasse || 'Choisir une passe'}
                   </DropdownMenuTrigger>
                   <DropdownMenuContent className="dropdown-menu">
@@ -89,7 +89,7 @@ import {
                       <DropdownMenuItem
                         key={passe}
                         onClick={() => handlePasseChange(passe)}
-                        className="dropdown-item px-4 py-2 block text-sm text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="dropdown-item px-4 py-2 block text-sm text-gray-600 hover:bg-gray-700 hover:text-white"
                       >
                         {passe}
                       </DropdownMenuItem>

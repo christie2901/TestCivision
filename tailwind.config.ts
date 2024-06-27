@@ -3,9 +3,20 @@ import type { Config } from "tailwindcss"
 const config = {
   darkMode: ["class"],
   content: [
-    '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/FilterBar.js',
-    '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/page.tsx',
+
+    /*'/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/FilterBar.js',
     '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/PriceDisplay.js',
+    '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/BarChart.js',
+    '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/BarChartSaison.js',
+    '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/BarChartGroupe.js',*/
+
+
+    /*'./component/FilterBar.js',
+    './page.tsx',
+    './component/PriceDisplay.js',
+    './component/BarChart.js',
+    './component/BarChartGroupe.js',
+    './component/BarChartSaison.js',*/
     //'./pages/**/*.{ts,tsx}',
     //'./components/**/*.{ts,tsx}',
     //'./app/**/*.{ts,tsx}',

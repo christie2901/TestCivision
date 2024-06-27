@@ -2,10 +2,15 @@ import React, { useState, useEffect } from 'react';
 
 const AveragePriceComponent = ({ filteredData }) => {
   const [averagePrice, setAveragePrice] = useState(0);
-
+/*
+Cette partie du code calcule le prix moyen à partir des données 
+filtrées et met à jour l'état averagePrice en conséquence. 
+*/
   useEffect(() => {
     if (filteredData.length > 0) {
-      const totalSum = filteredData.reduce((sum, item) => sum + item.prix, 0);
+      const totalSum = filteredData.reduce((sum, item) => {
+        return sum + (item.prix || 0); 
+      }, 0);
       const avgPrice = totalSum / filteredData.length;
       setAveragePrice(avgPrice);
     } else {
@@ -26,6 +31,3 @@ const AveragePriceComponent = ({ filteredData }) => {
 };
 
 export default AveragePriceComponent;
-
-
-

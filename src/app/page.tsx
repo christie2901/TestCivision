@@ -1,11 +1,19 @@
 'use client'
 
 import React from 'react';
-import FilterBar from '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/FilterBar.js';
+/*import FilterBar from '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/FilterBar.js';
 import AveragePriceComponent from '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/PriceDisplay.js';
 import BarChart from '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/BarChart.js';
 import SaisonBarChart from '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/BarChartSaison.js';
 import AgeGroupBarChart from '/Users/christieembeya/Documents/christie/cv_et_lettre/test/dashboard/src/app/component/BarChartGroupe.js';
+import data from './component/database.json';*/
+
+
+import FilterBar from './component/FilterBar.js';
+import AveragePriceComponent from './component/PriceDisplay.js';
+import BarChart from './component/BarChart.js';
+import SaisonBarChart from './component/BarChartSaison.js';
+import AgeGroupBarChart from './component/BarChartGroupe.js';
 import data from './component/database.json';
 const Dashboard = () => {
   const [filters, setFilters] = React.useState({ saison: null, niveau: null, passe: null });
