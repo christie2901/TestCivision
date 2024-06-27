@@ -55,7 +55,7 @@ const Dashboard = () => {
       
         <SaisonBarChart filteredData={filteredData} />
       </div>
-      <h4 className="text-lg font-semibold mb-2">Quantité par groupe d'âge</h4>
+      <h4 className="text-lg font-semibold mb-2">Quantité par groupe d&apos;âge</h4>
       <div className="bar-charts">
       
       <AgeGroupBarChart filteredData={filteredData} />
