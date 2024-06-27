@@ -7,6 +7,7 @@ const SaisonBarChart = ({ filteredData }) => {
   const chartRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = chartRef.current;
     const updateChart = () => {
       if (!filteredData || filteredData.length === 0) {
         return;
